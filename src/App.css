@@ -1,0 +1,45 @@
+.background {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quote-box {
+  width: 50%;
+  margin: auto;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.quote-content {
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+#author {
+  text-align: right;
+}
+
+button, a {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 0.6em 1.2rem;
+  font-weight: 500;
+  width: fit-content;
+  background: #1a1a1a;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1em;
+}
